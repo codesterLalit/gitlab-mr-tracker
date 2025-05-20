@@ -1,0 +1,27 @@
+ERROR:root:Unhandled exception: Traceback (most recent call last):
+  File "/home/codester/personal-space/bfi_node/gitflow/GitLab_MR_Tracker.py", line 452, in dashboard_page
+    tag_description, full_tag_obj = get_tag_info(project["id"], tag_name)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codester/personal-space/bfi_node/gitflow/GitLab_MR_Tracker.py", line 365, in get_tag_info
+    description = release.get("description") or "No release description available"
+                  ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+
+ERROR:root:Unhandled exception: Traceback (most recent call last):
+  File "/home/codester/personal-space/bfi_node/gitflow/GitLab_MR_Tracker.py", line 452, in dashboard_page
+    tag_description, full_tag_obj = get_tag_info(project["id"], tag_name)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codester/personal-space/bfi_node/gitflow/GitLab_MR_Tracker.py", line 365, in get_tag_info
+    description = release.get("description") or "No release description available"
+                  ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+
+ERROR:root:Unhandled exception: Traceback (most recent call last):
+  File "/home/codester/personal-space/bfi_node/gitflow/GitLab_MR_Tracker.py", line 453, in dashboard_page
+    tag_description, full_tag_obj = get_tag_info(project["id"], tag_name)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codester/personal-space/bfi_node/gitflow/GitLab_MR_Tracker.py", line 364, in get_tag_info
+    description = release.get("description") or "No release description available"
+                  ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+

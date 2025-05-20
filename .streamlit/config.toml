@@ -1,0 +1,12 @@
+[server]
+headless = true
+
+[theme]
+base = "light"
+
+[browser]
+gatherUsageStats = false
+
+[ui]
+hideTopBar = true
+hideToolbar = true

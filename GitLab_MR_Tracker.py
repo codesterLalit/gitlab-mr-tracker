@@ -329,6 +329,8 @@ def dashboard_page():
                 })
         
         df = pd.DataFrame(data)
+        df = df.sort_values(by="Repository Name")
+        
         output = io.BytesIO()
         with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
             df.to_excel(writer, index=False, sheet_name='GitLab Activity')

@@ -151,7 +151,7 @@ def login_page():
         """, unsafe_allow_html=True)
         
         token = st.text_input("GitLab Personal Access Token", 
-                            value="FH_sUX1cJcUtcYWzxgtS",
+                            value="",
                             type="password", 
                             help="The token should have 'api' scope")
         
